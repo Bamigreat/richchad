@@ -1,0 +1,26 @@
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer_icons {
+  position: absolute;
+  top: 83%;
+  left: 25%;
+}
+
+.footer_icons img {
+  width: 5.5%;
+  display: inline-block;
+}
+
+/* Tablet (1024px) */
+@media (max-width: 64em) {
+}
+
+/* Mobile (480px) */
+@media (max-width: 30em) {
+  .footer_icons {
+    top: 80%;
+  }
+}

@@ -1,0 +1,96 @@
+.chadter_2 {
+  background-color: rgba(119, 74, 128, 1);
+  overflow: hidden;
+}
+
+.highlight {
+  color: #f8cf03;
+}
+
+.chadter_2_wrapper {
+  display: flex;
+  position: relative;
+  padding-top: 40px;
+}
+
+.chadter_2_title_wrapper {
+  flex: 1;
+  padding: 1.5rem 5rem;
+}
+
+.chadter_2_title_wrapper h4 {
+  text-align: center;
+}
+
+.chadter_2_description_wrapper p {
+  border: 3px solid #f8cf03;
+  /* border-radius: 30px; */
+  border-radius: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  padding: 5% 7%;
+  height: auto;
+  text-align: center;
+  background-image: url(../../assets/images/BUY-PHANTOM.jpg);
+  color: white;
+  font-family: "Friz Quadrata Std Bold";
+  font-size: 0.5rem;
+  font-size: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  line-height: normal;
+  text-wrap: wrap;
+}
+
+.chadter_2_man_image {
+  flex: 2;
+}
+
+.chadter_2_man_image img {
+  width: 64.5rem;
+  max-width: 100%;
+  position: absolute;
+  bottom: -1rem;
+  left: -13%;
+}
+
+.chadter_2_x_image {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  width: 15rem;
+  max-width: 25%;
+}
+
+.chadter_2_x_image img {
+  border-radius: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  border: 5px solid #603765;
+}
+
+/* Tablet (1024px) */
+@media (max-width: 64em) {
+  .chadter_2_man_image img {
+    width: 44.5rem;
+    max-width: 75%;
+    position: absolute;
+    bottom: -1rem;
+    left: -14%;
+  }
+
+  .chadter_2_title_wrapper {
+    padding: 2.5% 4%;
+  }
+}
+
+/* Mobile (480px) */
+@media (max-width: 30em) {
+  .chadter_2_man_image img {
+    width: 44.5rem;
+    max-width: 75%;
+    position: absolute;
+    bottom: -1rem;
+    left: -18%;
+  }
+  .chadter_2_description_wrapper p {
+    border: 0.13rem solid #f8cf03;
+  }
+  .chadter_2_x_image img {
+    border: 0.13rem solid #603765;
+  }
+}

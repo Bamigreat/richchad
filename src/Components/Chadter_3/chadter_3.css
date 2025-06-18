@@ -1,0 +1,110 @@
+.chadter_3 {
+  background-color: #9a6aa0;
+}
+
+.highlight-green {
+  color: #0cda08;
+}
+
+.highlight-yellow {
+  color: #f8cf03;
+}
+
+.chadter_3_wrapper {
+  display: flex;
+  gap: 5%;
+  padding: 3% 2%;
+}
+
+.chadter_3_title {
+  text-align: center;
+  flex: 1.5;
+}
+
+.chadter_3_title h2 {
+  margin-bottom: 1.5%;
+}
+
+.chadter_3_list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.chadter_3_list ul li {
+  list-style: none;
+  font-size: 0.5rem;
+  font-size: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  padding: 3% 2%;
+  border-radius: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  border: 3px solid #f8cf03;
+  color: #ffffff;
+  background: #603765;
+  background-image: url(../../assets/images/BUY-PHANTOM.jpg);
+  background-size: cover;
+  background-position: 70% 70%;
+  line-height: 150%;
+}
+
+.man_stand_img {
+  flex: 1;
+  background: #000;
+  background-image: url(../../assets/images/chart.png);
+  border: 3px solid #f8cf03;
+  border-radius: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-size: cover;
+}
+
+.man_stand_img img {
+  width: 31.2rem;
+  max-width: 100%;
+}
+
+/* Tablet (1024px) */
+@media (max-width: 64em) {
+  .chadter_3_title {
+    width: 60%;
+  }
+
+  .chadter_3_list ul {
+    gap: 0.5rem;
+    width: 47rem;
+    max-width: 100%;
+  }
+
+  .man_stand_img img {
+    width: 31.2rem;
+    max-width: 100%;
+    padding: 9% 1%;
+  }
+}
+
+/* Mobile (480px) */
+@media (max-width: 30em) {
+  .chadter_3_title {
+    width: 60%;
+  }
+
+  .chadter_3_list ul li {
+    border: 0.13rem solid #f8cf03;
+    padding: 6% 3%;
+    height: 3.3rem;
+  }
+  .chadter_3_list ul {
+    gap: 0.35rem;
+    max-width: 100%;
+  }
+
+  .man_stand_img {
+    border: 0.13rem solid #f8cf03;
+  }
+
+  .man_stand_img img {
+    width: 31.2rem;
+    max-width: 100%;
+  }
+}

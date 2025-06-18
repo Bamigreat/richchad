@@ -1,0 +1,126 @@
+.chadter_1 {
+  background-color: rgba(154, 106, 160, 1);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.chadter_1_title_wrapper {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.highlight {
+  color: #f8cf03;
+}
+
+.chadter_1_description_wrapper {
+  width: 1250px;
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 0.5rem;
+  font-size: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  color: #fff;
+  padding: 2% 2%;
+  /* border-radius: 1rem; */
+  border-radius: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  border: 0.3rem solid #f8cf03;
+  line-height: normal;
+  position: relative;
+  background-image: url(../../assets/images/chart.png);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.chadter_1_description_wrapper::after {
+  content: "";
+  position: absolute;
+  background-color: #603765;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.85;
+}
+
+.chadter_1_image_wrapper {
+  width: 20rem;
+  max-width: 20%;
+  margin: 0 auto;
+}
+
+.contact-add {
+  width: 100%;
+  max-width: 69%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #f8cf03;
+  padding: 0.4% 1.7%;
+  text-align: center;
+  border: 0.31rem solid #774b80;
+  border-radius: 3.5rem;
+  font-size: 0.5rem;
+  font-size: clamp(0.5rem, -0.04rem + 2.29vw, 2rem);
+  text-wrap: nowrap;
+}
+
+/* Tablet (1024px) */
+@media (max-width: 64em) {
+  .chadter_1_description_wrapper {
+    border: 0.2rem solid #f8cf03;
+  }
+
+  .contact-add {
+    border: 0.25rem solid #774b80;
+  }
+}
+
+/* Mobile (480px) */
+@media (max-width: 30em) {
+  .chadter_1_description_wrapper {
+    border: 0.12rem solid #f8cf03;
+  }
+
+  .contact-add {
+    border: 0.13rem solid #774b80;
+    /* padding: 0.5% 35.7%; */
+  }
+}
+
+/* Animation Styles */
+.chadter_1_title_wrapper.animate-in {
+  animation: slideInLeft 2s ease-out forwards;
+}
+
+.chadter_1_description_wrapper.animate-in {
+  animation: slideInLeft 2s ease-out forwards;
+}
+
+.chadter_1_image_wrapper.animate-in {
+  animation: slideInRight 2s ease-out forwards;
+}
+
+.contact-add.animate-in {
+  animation: slideInRight 2s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
