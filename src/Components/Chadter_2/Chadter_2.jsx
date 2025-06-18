@@ -17,8 +17,8 @@ const chadter_2 = () => {
             </div>
 
             <div className="chadter_2_title_wrapper">
-              <h4 class="">CHADTER 2:</h4>
-              <h2 class="">ROBERT KIYOSAKI</h2>
+              <h4>CHADTER 2:</h4>
+              <h2>ROBERT KIYOSAKI</h2>
               <div className="chadter_2_description_wrapper">
                 <p>
                   Who is <span className="highlight">Robert Kiyosaki</span>?

@@ -14,7 +14,7 @@ function App() {
     <>
       <Hero />
       <Chadter_1 />
-      <Chadter_2 />
+      {/* <Chadter_2 /> */}
       <Chadter_3 />
       <Chadter_4 />
       <Chadter_5 />
