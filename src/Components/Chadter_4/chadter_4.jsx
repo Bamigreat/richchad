@@ -1,8 +1,8 @@
 import React from "react";
 import "./chadter_4.css";
-import openBook from "../../assets/Images/book-rules (2).webp";
-import closeBook from "../../assets/Images/book-redo.png";
-import chadter4Video from "../../assets/Images/money-fall.mp4";
+import openBook from "../../assets/images/book-rules (2).webp";
+import closeBook from "../../assets/images/book-redo.png";
+import chadter4Video from "../../assets/images/money-fall.mp4";
 
 const chadter_4 = () => {
   return (
