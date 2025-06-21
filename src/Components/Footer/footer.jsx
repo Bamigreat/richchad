@@ -1,8 +1,8 @@
 import React from "react";
-import icon1 from "../../Assets/images/0_E1IshKUJE53qtr9C.png";
-import icon2 from "../../Assets/images/Dex screener DONE.png";
-import icon3 from "../../Assets/images/TG done.png";
-import icon4 from "../../Assets/images/x white.png";
+import icon1 from "../../assets/images/0_E1IshKUJE53qtr9C.png";
+import icon2 from "../../assets/images/Dex screener DONE.png";
+import icon3 from "../../assets/images/TG done.png";
+import icon4 from "../../assets/images/x white.png";
 import footBgImg from "../../assets/images/rich_chad_banner.png";
 import "./footer.css";
 

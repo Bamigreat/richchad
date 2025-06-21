@@ -1,6 +1,6 @@
 import React from "react";
-import chad_two_man_img from "../../Assets/images/chadman.png";
-import chad_x_img from "../../Assets/images/chad-x.jpg";
+import chad_two_man_img from "../../assets/images/chadman.png";
+import chad_x_img from "../../assets/images/chad-x.jpg";
 import "./Chadter_2.css";
 
 const chadter_2 = () => {

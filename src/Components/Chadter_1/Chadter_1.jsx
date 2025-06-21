@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./Chadter_1.css";
-import headgif from "../../Assets/images/giphy.gif";
+import headgif from "../../assets/images/giphy.gif";
 
 const Chader_1 = () => {
   const sectionRef = useRef(null);
