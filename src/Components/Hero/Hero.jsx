@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import chad1 from "../../assets/images/chad 1.png";
+import chad1 from "../../assets/images/Chad 1.png";
 import chad2 from "../../assets/images/Chad 2.png";
 import logo from "../../assets/images/LOGO_1_1.png";
 import social_icon1 from "../../assets/images/0_E1IshKUJE53qtr9C.png";
