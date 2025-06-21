@@ -1,12 +1,12 @@
 import React from "react";
 import "./Hero.css";
-import chad1 from "../../Assets/images/chad 1.png";
-import chad2 from "../../Assets/images/Chad 2.png";
-import logo from "../../Assets/images/LOGO_1_1.png";
-import social_icon1 from "../../Assets/images/0_E1IshKUJE53qtr9C.png";
-import social_icon2 from "../../Assets/images/Dex screener DONE.png";
-import social_icon3 from "../../Assets/images/TG done.png";
-import social_icon4 from "../../Assets/images/x white.png";
+import chad1 from "../../assets/images/chad 1.png";
+import chad2 from "../../assets/images/Chad 2.png";
+import logo from "../../assets/images/LOGO_1_1.png";
+import social_icon1 from "../../assets/images/0_E1IshKUJE53qtr9C.png";
+import social_icon2 from "../../assets/images/Dex screener DONE.png";
+import social_icon3 from "../../assets/images/TG done.png";
+import social_icon4 from "../../ssets/images/x white.png";
 
 const Hero = () => {
   return (
