@@ -4,9 +4,9 @@ import chad1 from "../../assets/images/Chad 1.png";
 import chad2 from "../../assets/images/Chad 2.png";
 import logo from "../../assets/images/LOGO_1_1.png";
 import social_icon1 from "../../assets/images/0_E1IshKUJE53qtr9C.png";
-import social_icon2 from "../../assets/images/Dex screener DONE.png";
-import social_icon3 from "../../assets/images/TG done.png";
-import social_icon4 from "../../ssets/images/x white.png";
+import social_icon2 from "../../assets/images/Dex.png";
+import social_icon3 from "../../assets/images/TG.png";
+import social_icon4 from "../../assets/images/White.png";
 
 const Hero = () => {
   return (
